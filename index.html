@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pest Control</title>
+    <!-- Style css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tour">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#Home" data-toggle="tooltip" data-placement="bottom"
+                    title="Site-Name!">Pest-Control</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="tour">
+                <ul class="nav navbar-nav">
+                    <li><a href="#Home" data-toggle="tooltip" data-placement="bottom" title="Home!">Home</a></li>
+                    <li><a href="#Service" data-toggle="tooltip" data-placement="bottom" title="Shoes!">Service</a></li>
+                    <li><a href="#About" data-toggle="tooltip" data-placement="bottom" title="About!">About</a></li>
+                    <li><a href="#Terstimonial" data-toggle="tooltip" data-placement="bottom"
+                            title="Contact!">Terstimonial</a>
+                    <li><a href="#Contact" data-toggle="tooltip" data-placement="bottom" title="Contact!">Contact</a>
+
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><button class="btn1 btn-warning" data-toggle="tooltip" data-placement="bottom" title="Shopping!"
+                            style="margin-right: 20px;">
+                            <a href="#Contact" style="text-decoration: none;
+                           display: inline-block; 
+                           color: white;">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Home Section Start -->
+    <section id="Home">
+        <div class="container-fluid">
+            <div class="row">
+
+                <img src="./images/slider_main.png" class="img-responsive" style="margin-top: 50px;">
+            </div>
+        </div>
+    </section>
+    <!-- Home Section end -->
+
+    <!-- Service Start -->
+    <section id="Service" style="margin-top: 10px;">
+        <div class="container-fluid">
+            <h1>
+                <center style="color: #FFC300;">Service</center>
+            </h1>
+            <div class="col-md-4 col-sm-6 col-xd-12 container">
+                <div class="card">
+                    <center><img class="img-responsive" id="img2" src="./images/Anti-Termite.jpeg"
+                            alt="Anti-Termite Treatment"><br></center>
+                    <h3>
+                        <center>Anti-Termite Treatment</center>
+                    </h3>
+                    <p>
+                        <center>Our pest control expertise lies in rendering services that are best suited for getting
+                            rid
+                            of termites. </center>
+                    </p>
+                    <center><button data-toggle="modal" data-target="#myModal" class="btn btn-warning">Enquire
+                            Now</button></center>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xd-12 container">
+                <div class="card">
+                    <img class="img-responsive" id="img2" src="./images/Cockroaches.jpg"
+                        alt="Cockroaches Control Treatmen"><br>
+                    <h3>
+                        <center>Cockroaches Control Treatment</center>
+                    </h3>
+                    <p>
+                        <center>We provide pest control services for residential's, commercials, and industries to
+                            Exterminate cockroaches.</center>
+                    </p>
+                    <center><button data-toggle="modal" data-target="#second" class="btn btn-warning">Enquire
+                            Now</button></center>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xd-12 container">
+                <div class="card">
+                    <img class="img-responsive" id="img2" src="./images/Green-Mosquito.jpg"
+                        alt="Mosquito Control Treatment"><br>
+                    <h3>
+                        <center>Mosquito Control Treatment</center>
+                    </h3>
+                    <p>
+                        <center>With our expertise in this domain, we are engaged in offering quality pest control
+                            services
+                            for mosquito.</center>
+                    </p>
+                    <center><button data-toggle="modal" data-target="#third" class="btn btn-warning">Enquire
+                            Now</button></center>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xd-12 container">
+                <div class="card">
+                    <img class="img-responsive" id="img2" src="./images/Rodent.jpg" alt="Rodent Control Treatment"><br>
+                    <h3>
+                        <center>Rodent Control Treatment</center>
+                    </h3>
+                    <p>
+                        <center>Want to get rid of Rodent? We would come at your space & provide you with the best Pest
+                            Control Services.
+                        </center>
+                    </p>
+                    <center><button data-toggle="modal" data-target="#four" class="btn btn-warning">Enquire Now</button>
+                    </center>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xd-12 container">
+                <div class="card">
+                    <img class="img-responsive" id="img2" src="./images/wood-borer-control1.jpg"
+                        alt="Wood Borer Treatment"><br>
+                    <h3>
+                        <center>Wood Borer Treatment</center>
+                    </h3>
+                    <p>
+                        <center>We have experts to give you pest control solution for all those who are tired of their
+                            pests
+                            at home.
+                        </center>
+                    </p>
+                    <center><button data-toggle="modal" data-target="#five" class="btn btn-warning">Enquire Now</button>
+                    </center>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xd-12 container   ">
+                <div class="card">
+                    <img class="img-responsive" id="img2" src="./images/Reliable-Pest.jpg"
+                        alt="Residential Pest Control Services"><br>
+                    <h3>
+                        <center>Residential Pest Control Services</center>
+                    </h3>
+                    <p>
+                        <center>We provide best quality pest control service for your home so that you can get rid of
+                            them
+                            and worry less.</center>
+                    </p>
+                    <center><button data-toggle="modal" data-target="#six" class="btn btn-warning">Enquire Now</button>
+                    </center>
+                </div>
+            </div><br><br><br>
+        </div>
+    </section>
+    <!-- Service End -->
+
+    <!-- Modal First-->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content" id="Modal-Product">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">
+                        <center> <b>Send</b><b style="color: #FFC300;"> Enquiry! </b></center>
+                        <center style="font-size: 12px;">Just answer a few questions below to get the right Pest Control
+                        </center>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="col-xd-12">
+                        <center><img class="img-responsive" id="Model-img" src="./images/Anti-Termite.jpeg"
+                                alt="Cockroaches Control Treatmen"></center><br></a>
+
+                        <form name="reg" id="myForm" action="enquiry.php" method="POST">
+
+                            <div class="col-md-6 form-group">
+                                <input class="form-control" name="name" placeholder="Your Name" type="text" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input class="form-control" name="phone" placeholder="Number" type="text" required>
+                            </div>
+                            <h1 id="note"></h1>
+                            <center>
+                                <input type="submit" class="btn btn-danger" type="submit" id="myButton"
+                                    style="width:100px;" onclick="closeModal()" title="Continue" value="Continue">
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Modal End -->
+
+    <!-- Modal second-->
+    <div id="second" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content" id="Modal-Product">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">
+                        <center> <b>Send</b><b style="color: #FFC300;"> Enquiry! </b></center>
+                        <center style="font-size: 12px;">Just answer a few questions below to get the right Pest Control
+                        </center>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="col-xd-12">
+                        <center><img class="img-responsive" id="Model-img" src="./images/Cockroaches.jpg"
+                                alt="Cockroaches Control Treatmen"></center><br></a>
+
+                        <form name="model-form" action="enquiry.php" method="POST">
+                            <div class="col-md-6 form-group">
+                                <input class="form-control" name="name" placeholder="Your Name" type="text">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input class="form-control" name="number" placeholder="Number" type="text">
+                            </div>
+                            <center>
+                                <input type="submit" class="btn btn-danger" type="submit" style="width:100px;"
+                                    onclick="return Enqiury()" title="Continue" value="Continue">
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Modal End -->
+
+    <!-- Modal Third-->
+    <div id="third" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content" id="Modal-Product">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">
+                        <center> <b>Send</b><b style="color: #FFC300;"> Enquiry! </b></center>
+                        <center style="font-size: 12px;">Just answer a few questions below to get the right Pest Control
+                        </center>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="col-xd-12">
+                        <center><img class="img-responsive" id="Model-img" src="./images/Green-Mosquito.jpg"
+                                alt="Cockroaches Control Treatmen"></center><br></a>
+
+                        <form name="model-form" action="enquiry.php" method="POST">
+
+                            <div class="col-md-6 form-group">
+                                <input class="form-control" name="name" placeholder="Your Name" type="text">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input class="form-control" name="number" placeholder="Number" type="text">
+                            </div>
+                            <center>
+                                <input type="submit" class="btn btn-danger" type="submit" style="width:100px;"
+                                    onclick="return Enqiury()" title="Continue" value="Continue">
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Modal End -->
+
+    <!-- Modal Fourth-->
+    <div id="four" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content" id="Modal-Product">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">
+                        <center> <b>Send</b><b style="color: #FFC300;"> Enquiry! </b></center>
+                        <center style="font-size: 12px;">Just answer a few questions below to get the right Pest Control
+                        </center>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="col-xd-12">
+                        <center><img class="img-responsive" id="Model-img" src="./images/Rodent.jpg"
+                                alt="Cockroaches Control Treatmen"></center><br></a>
+
+                        <form name="model-form" action="enquiry.php" method="POST">
+
+                            <div class="col-md-6 form-group">
+                                <input class="form-control" name="name" placeholder="Your Name" type="text">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input class="form-control" name="number" placeholder="Number" type="text">
+                            </div>
+                            <center>
+                                <input type="submit" class="btn btn-danger" type="submit" style="width:100px;"
+                                    onclick="return Enqiury()" title="Continue" value="Continue">
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Modal End -->
+
+    <!-- Modal Five-->
+    <div id="five" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content" id="Modal-Product">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">
+                        <center> <b>Send</b><b style="color: #FFC300;"> Enquiry! </b></center>
+                        <center style="font-size: 12px;">Just answer a few questions below to get the right Pest Control
+                        </center>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="col-xd-12">
+                        <center><img class="img-responsive" id="Model-img" src="./images/wood-borer-control1.jpg"
+                                alt="Cockroaches Control Treatmen"></center><br></a>
+
+                        <form name="model-form" action="enquiry.php" enctype="multipart/form-data"
+                            onsubmit="return validation()" method="POST">
+
+                            <div class="col-md-6 form-group">
+                                <input class="form-control" name="name" placeholder="Your Name" type="text">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input class="form-control" name="number" placeholder="Number" type="text">
+                            </div>
+                            <center>
+                                <input type="submit" class="btn btn-danger" type="submit" style="width:100px;"
+                                    onclick="return Enqiury()" title="Continue" value="Continue">
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Modal End -->
+
+    <!-- Modal six-->
+    <div id="six" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content" id="Modal-Product">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">
+                        <center> <b>Send</b><b style="color: #FFC300;"> Enquiry! </b></center>
+                        <center style="font-size: 12px;">Just answer a few questions below to get the right Pest Control
+                        </center>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="col-xd-12">
+                        <center><img class="img-responsive" id="Model-img" src="./images/Reliable-Pest.jpg"
+                                alt="Cockroaches Control Treatmen"></center><br></a>
+
+                        <form name="model-form" action="enquiry.php" enctype="multipart/form-data"
+                            onsubmit="return validation()" method="POST">
+
+                            <div class="col-md-6 form-group">
+                                <input class="form-control" name="name" placeholder="Your Name" type="text">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input class="form-control" name="number" placeholder="Number" type="text">
+                            </div>
+                            <center>
+                                <input type="submit" class="btn btn-danger" type="submit" style="width:100px;"
+                                    onclick="return Enqiury()" title="Continue" value="Continue">
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Modal End -->
+    <!-- Service & Modal End -->
+
+    <!-- About Section Start -->
+    <section id="About">
+        <div class="container">
+            <h1 class="heading">
+                <center><b><span style="color: #FFC300;"> About </span> Us </b></center>
+            </h1>
+            <div class="col-sm-6">
+                <div class="row">
+                    <img src="./images/about.jpg" style="margin-top: 10px;" class="img-responsive" alt="About">
+                </div>
+            </div>
+            <center>
+                <div class="content" id="about-section">
+                    <div class="col-sm-6">
+                        <h1>Why choose us?</h1>
+                        <p style="font-size: 17px;">ARP PEST CONTROL COMPANY was established in 1961 in Gujarat state.
+                            So, our pest control professionals have a total 59 years of experience in the pest control
+                            management field. We are a professionally managed pest control company dedicated to
+                            improving the environment and providing stress-free living surroundings. In the areas of
+                            residential and commercial pest control services, ARP has a knowledgeable, skilled,
+                            experienced, and professional team of specialists. We can provide you with highly
+                            personalized packages since we have a strong team of professionals. Every pest termination
+                            or control method is eco-friendly and hence complies with environmental standards.</p>
+                    </div>
+                </div>
+            </center>
+        </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Contact section start -->
+    <section id="Contact">
+        <div class="container">
+            <h3 class="text-center">
+                <h1>
+                    <center><b><span style="color: #FFC300;"> Contact </span> Us </b></center>
+                </h1>
+            </h3>
+            <p class="text-center"><em>
+                    <center>We love our fans!</center>
+                </em></p>
+
+            <div class="row" style="margin-top: 100px;">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="./images/contact-img.jpg" alt="Oder-Images" width="70%"
+                        id="oder-img">
+                </div>
+                <div class="col-md-6">
+                    <form name="f1" action="contact.php" method="POST">
+
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" name="name" id="name" name="contact-name"
+                                    placeholder="Your Name" type="text" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" name="number" id="number" name="contact-number"
+                                    placeholder="Your Number" type="text" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" name="email" id="email" name="contact-email"
+                                    placeholder="Your Email" type="email" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <select class="cont-txt form-control" id="cont-txt" name="cservice">
+                                    <option selected>Service Enqiury</option>
+                                    <option>Anti-Termite Treatment</option>
+                                    <option>Cockroaches Control Treatment</option>
+                                    <option>Mosquito Control Treatment</option>
+                                    <option>Rodent Control Treatment</option>
+                                    <option>Wood Borer Treatment</option>
+                                    <option>Residential Pest Control Services</option>
+                                </select>
+                            </div>
+                        </div>
+                        <textarea class="form-control" id="comments" name="comment" name="contact-comment"
+                            placeholder="Comment" rows="5"></textarea>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="submit" class="btn pull-right btn-warning" type="submit"
+                                    style="width:100px;" onclick="return confirms()" title="Send!" value="Contact">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+    <!-- Contact section end -->
+
+
+    <!-- whatsapp start -->
+    <div class="container">
+        <div class="col-sm-6 col-md-12">
+            <a href="https://wa.me/15551234567" title="Chat with us on WhatsApp" style="
+      /* margin: 0 1190px 300px 0 !important; */
+      height: 52px;
+      min-width: 52px;
+      padding: 5px 0px 10px 5px;
+      position: fixed !important;
+      bottom: 10px;
+      right: 20px;
+      z-index: 10000000 !important;
+      background-color: #00e785;
+      box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.4);
+      border-radius: 10px;
+    ">
+                <svg width="42" height="42" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1024_354)">
+                        <path
+                            d="M23.8759 4.06939C21.4959 1.68839 18.3316 0.253548 14.9723 0.0320463C11.613 -0.189455 8.28774 0.817483 5.61565 2.86535C2.94357 4.91323 1.10682 7.86244 0.447451 11.1638C-0.21192 14.4652 0.351026 17.8937 2.03146 20.8109L0.0625 28.0004L7.42006 26.0712C9.45505 27.1794 11.7353 27.7601 14.0524 27.7602H14.0583C16.8029 27.7599 19.4859 26.946 21.768 25.4212C24.0502 23.8965 25.829 21.7294 26.8798 19.1939C27.9305 16.6583 28.206 13.8682 27.6713 11.1761C27.1367 8.48406 25.8159 6.01095 23.8759 4.06939ZM14.0583 25.4169H14.0538C11.988 25.417 9.96008 24.8617 8.1825 23.8091L7.7611 23.5593L3.3945 24.704L4.56014 20.448L4.28546 20.0117C2.92594 17.8454 2.32491 15.2886 2.57684 12.7434C2.82877 10.1982 3.91938 7.80894 5.67722 5.95113C7.43506 4.09332 9.76045 2.87235 12.2878 2.48017C14.8152 2.08799 17.4013 2.54684 19.6395 3.78457C21.8776 5.02231 23.641 6.96875 24.6524 9.3179C25.6638 11.6671 25.8659 14.2857 25.2268 16.7622C24.5877 19.2387 23.1438 21.4326 21.122 22.999C19.1001 24.5655 16.6151 25.4156 14.0575 25.4157L14.0583 25.4169Z"
+                            fill="#E0E0E0"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M10.6291 7.98363C10.3723 7.41271 10.1019 7.40123 9.85771 7.39143C9.65779 7.38275 9.42903 7.38331 9.20083 7.38331C9.0271 7.3879 8.8562 7.42837 8.69887 7.5022C8.54154 7.57602 8.40119 7.68159 8.28663 7.81227C7.899 8.17929 7.59209 8.62305 7.38547 9.11526C7.17884 9.60747 7.07704 10.1373 7.08655 10.6711C7.08655 12.3578 8.31519 13.9877 8.48655 14.2164C8.65791 14.4452 10.8581 18.0169 14.3425 19.3908C17.2382 20.5327 17.8276 20.3056 18.4562 20.2485C19.0848 20.1913 20.4843 19.4194 20.7701 18.6189C21.056 17.8183 21.0557 17.1323 20.9701 16.989C20.8844 16.8456 20.6559 16.7605 20.3129 16.5889C19.9699 16.4172 18.2849 15.5879 17.9704 15.4736C17.656 15.3594 17.4275 15.3023 17.199 15.6455C16.9705 15.9888 16.3139 16.7602 16.1137 16.9895C15.9135 17.2189 15.7136 17.2471 15.3709 17.0758C14.3603 16.6729 13.4275 16.0972 12.6143 15.3745C11.8648 14.6818 11.2221 13.8819 10.7072 13.0007C10.5073 12.6579 10.6857 12.472 10.8579 12.3007C11.0119 12.1472 11.2006 11.9005 11.3722 11.7003C11.5129 11.5271 11.6282 11.3346 11.7147 11.1289C11.7603 11.0343 11.7817 10.9299 11.7768 10.825C11.7719 10.7201 11.7409 10.6182 11.6867 10.5283C11.6001 10.3566 10.9337 8.66151 10.6291 7.98363Z"
+                            fill="white"></path>
+                        <path
+                            d="M23.7628 4.02445C21.4107 1.66917 18.2825 0.249336 14.9611 0.0294866C11.6397 -0.190363 8.35161 0.804769 5.70953 2.82947C3.06745 4.85417 1.25154 7.77034 0.600156 11.0346C-0.051233 14.299 0.506321 17.6888 2.16894 20.5724L0.222656 27.6808L7.49566 25.7737C9.50727 26.8692 11.7613 27.4432 14.0519 27.4434H14.0577C16.7711 27.4436 19.4235 26.6392 21.6798 25.1321C23.936 23.6249 25.6947 21.4825 26.7335 18.9759C27.7722 16.4693 28.0444 13.711 27.5157 11.0497C26.9869 8.38835 25.6809 5.94358 23.7628 4.02445ZM14.0577 25.1269H14.0547C12.0125 25.1271 10.0078 24.5782 8.25054 23.5377L7.8339 23.2907L3.51686 24.4222L4.66906 20.2143L4.39774 19.7831C3.05387 17.6415 2.4598 15.1141 2.70892 12.598C2.95804 10.082 4.03622 7.72013 5.77398 5.88366C7.51173 4.04719 9.81051 2.84028 12.3089 2.45266C14.8074 2.06505 17.3638 2.5187 19.5763 3.74232C21.7888 4.96593 23.5319 6.89011 24.5317 9.21238C25.5314 11.5346 25.7311 14.1233 25.0993 16.5714C24.4675 19.0195 23.0401 21.1883 21.0414 22.7367C19.0427 24.2851 16.5861 25.1254 14.0577 25.1255V25.1269Z"
+                            fill="white"></path>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1024_354">
+                            <rect width="27.8748" height="28" fill="white" transform="translate(0.0625);"></rect>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <!-- whatsapp end -->
+
+    <!-- Footer start -->
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Quick Link</h3>
+                        <ul>
+                            <li><a href="/home/" title="Home">Home</a></li>
+                            <li><a href="/home/" title="About">About</a></li>
+                            <li><a href="/home/" title="Shoes">Shoes</a></li>
+                            <li><a href="/home/" title="Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Location</h3>
+                        <ul>
+                            <li><a href="https://www.google.com/maps/place/Rajkot,+Gujarat/@22.273625,70.7388939,12z/data=!3m1!4b1!4m6!3m5!1s0x3959c98ac71cdf0f:0x76dd15cfbe93ad3b!8m2!3d22.3038945!4d70.8021599!16zL20vMDNnbWxx?authuser=0"
+                                    title="Rajkot">Rajkot</a></li>
+
+                            <li><a href="https://www.google.com/maps/place/Ahmedabad,+Gujarat/@23.0204741,72.4149277,11z/data=!3m1!4b1!4m15!1m8!3m7!1s0x3959c98ac71cdf0f:0x76dd15cfbe93ad3b!2sRajkot,+Gujarat!3b1!8m2!3d22.3038945!4d70.8021599!16zL20vMDNnbWxx!3m5!1s0x395e848aba5bd449:0x4fcedd11614f6516!8m2!3d23.022505!4d72.5713621!16zL20vMDFkODhj?authuser=0"
+                                    title="Ahmedabad">Ahmedabad</a></li>
+
+                            <li><a href="https://www.google.com/maps/place/Surat,+Gujarat/@21.1594406,72.6574811,11z/data=!3m1!4b1!4m6!3m5!1s0x3be04e59411d1563:0xfe4558290938b042!8m2!3d21.1702401!4d72.8310607!16zL20vMDFoMWhu?authuser=0"
+                                    title="Surat">Surat</a></li>
+
+                            <li><a href="https://www.google.com/maps/place/Mumbai,+Maharashtra/@19.082502,72.7163707,11z/data=!3m1!4b1!4m6!3m5!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!8m2!3d19.0759837!4d72.8776559!16zL20vMDR2bXA?authuser=0"
+                                    title="Mumbai">Mumbai</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Extra Link</h3>
+                        <ul>
+                            <li><a href="/login/" style="cursor: pointer;">my account</a></li>
+                            <li><a href="/addcart/" style="cursor: pointer;">my order</a></li>
+                            <li><a style="cursor: pointer;">my favorite</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <p>Drop a note.</p>
+                        <p><span class="glyphicon glyphicon-map-marker"></span>&nbsp &nbsp Rajkot, Gujrat</p>
+                        <p><span class="glyphicon glyphicon-phone"></span>&nbsp &nbsp Phone: +91 9876543210</p>
+                        <p><span class="glyphicon glyphicon-envelope"></span>&nbsp &nbsp Email: example1234@mail.com</p>
+                    </div>
+                </div>
+                <p class="copyright"> created by <span> Krutik Naina </span> | all rights reserved </p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Footer End -->
+
+</body>
+
+</html>
