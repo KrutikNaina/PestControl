@@ -9,5 +9,4 @@
     $result = mysqli_query($conn, $sql) or die("Query Failed!");
     header("location: http://localhost:8080/pestcontrol/");
     mysqli_close($conn);
-//hello 
 ?>      
